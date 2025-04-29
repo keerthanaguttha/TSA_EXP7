@@ -111,8 +111,8 @@ print('Mean Squared Error (MSE):', mse)
 
 ```python
 plt.figure(figsize=(12, 6))
-plt.plot(test_data['yahoo_price'], label='Test Data - Number of passengers')
-plt.plot(predictions, label='Predictions - Number of passengers',linestyle='--')
+plt.plot(test_data['yahoo_price'], label='Test Data - Yahoo_stock_price')
+plt.plot(predictions, label='Predictions - Stock Price of Yahoo',linestyle='--')
 plt.xlabel('Date')
 plt.ylabel('Stock Price')
 plt.title('AR Model Predictions vs Test Data')
